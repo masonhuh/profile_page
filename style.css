@@ -1,0 +1,307 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#page-content {
+    display: flex;
+    align-content: flex-start;
+}
+
+#navbar {
+    color: white;
+}
+
+nav {
+    padding-left: 5%;
+    padding-right: 25%;
+    background-color: black;
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 10px solid black;
+    border-style: outset;
+}
+
+.profile {
+    display: inline-flex;
+    padding-left: 80px;
+}
+
+.nav-links {
+    display: flex;
+    padding-right: 60px;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: teal;
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 350px;
+    border: 5px grey solid;
+    background-color: whitesmoke;
+    margin: 50px auto;
+    margin-left: 260px;
+}
+
+.card-header {
+    background-color: teal;
+    width: 680px;
+    height: 100px;
+    display: inline-flex;
+}
+
+.propic {
+    width: 120px;
+    top: 45px;
+    left: 50px;
+    position: absolute;
+    border: 5px solid white;
+    border-radius: 200px;
+}
+
+#name {
+    position: absolute;
+    top: 165px;
+    left: 40px;
+}
+
+.location-icon {
+    width: 15px;
+    top: 210px;
+    left: 40px;
+    position: absolute;
+}
+
+.seattle {
+    width: 15px;
+    top: 208px;
+    left: 70px;
+    position: absolute;
+}
+
+.skills {
+    top: 245px;
+    left: 40px;
+    position: absolute;
+}
+
+.bio {
+    top: 270px;
+    left: 40px;
+    position: absolute;
+}
+
+.gear-icon {
+    width: 25px;
+    bottom: 15px;
+    left: 40px;
+    position: absolute;
+}
+
+.edit {
+    position: absolute;
+    bottom: 18px;
+    left: 75px;
+}
+
+.education {
+    margin: 30px auto;
+    margin-left: 260px;
+    height: 400px;
+    width: 500px;
+    border: 5px solid grey;
+}
+
+.education-header {
+    width: 490px;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    background-color: rgb(46, 46, 46);
+}
+
+#education-title {
+    color: white;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: medium;
+}
+
+.education-content {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+h3 {
+    font-size: large;
+}
+
+h4 {
+    color: lightgrey;
+    padding-top: 10px;
+}
+
+.education-desc {
+    padding-top: 20px;
+    padding-right: 35px;
+}
+
+.requests {
+    margin: 50px auto;
+    display: inline-flex;
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    border: 5px solid grey;
+    margin-left: 90px;
+}
+
+.req-header {
+    background-color: rgb(46, 46, 46);
+    width: 340px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: left;
+    position: absolute;
+}
+
+#req-title {
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: medium;
+}
+
+.notbell {
+    height: 40px;
+    right: 20px;
+    top: 5px;
+    position: absolute;
+}
+
+.todd-pic {
+    width: 50px;
+    border: 2px solid lightblue;
+    border-radius: 50%;
+    left: -65px;
+    top: -15px;
+    position: absolute;
+}
+
+.phil-pic {
+    width: 50px;
+    border: 2px solid lightblue;
+    border-radius: 50%;
+    left: -65px;
+    top: -15px;
+    position: absolute;
+}
+
+.todd {
+    top: 84px;
+    left: 100px;
+    position: absolute;
+}
+
+.phil {
+    top: 180px;
+    left: 100px;
+    position: absolute;
+}
+
+.accept1 {
+    width: 45px;
+    left: 200px;
+    top: 165px;
+    position: absolute;
+}
+
+.deny1 {
+    width: 45px;
+    left: 260px;
+    top: 165px;
+    position: absolute;
+}
+
+.accept2 {
+    width: 45px;
+    left: 200px;
+    top: 70px;
+    position: absolute;
+}
+
+.deny2 {
+    width: 45px;
+    left: 260px;
+    top: 70px;
+    position: absolute;
+}
+
+.connections {
+    position: relative;
+    border: 5px solid grey;
+    margin: 30px auto;
+    margin-left: 90px;
+    width: 350px;
+    height: 460px;
+    top: 300px;
+}
+
+.connections-header {
+    background-color: rgb(46, 46, 46);
+    width: 340px;
+    height: 50px;
+    position: absolute;
+}
+
+#connections-title {
+    color: white;
+    margin-left: 18px;
+    margin-top: 10px;
+    font-size: medium;
+}
+
+.connections-list {
+    list-style: none;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 10px;
+    align-content: center;
+}
+
+.friendimage {
+    border: 2px solid lightblue;
+    border-radius: 50%;
+    width: 65px;
+    margin: 5px;
+}
+
+.viewmore {
+    left: 30px;
+    bottom: 15px;
+    position: absolute;
+}
